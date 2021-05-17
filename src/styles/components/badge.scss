@@ -1,0 +1,23 @@
+.badge {
+  border-radius: 100px;
+  color: white;
+  left: 1rem;
+  font-size: 12px;
+  font-weight: 900;
+  padding: .3rem .7rem;
+  position: absolute;
+  top: 1rem;
+  z-index: 4;
+
+  &--green {
+    background-color: var(--green);
+  }
+
+  &--yellow {
+    background-color: var(--yellow);
+  }
+
+  &--red {
+    background-color: var(--red);
+  }
+}

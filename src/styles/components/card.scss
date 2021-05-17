@@ -1,0 +1,120 @@
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 24px 64px rgba(22, 27, 45, 0.05);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 472px;
+  max-height: 472px;
+  overflow: hidden;
+  padding-bottom: 1.4rem;
+  position: relative;
+  text-align: left;
+  transition: transform .4s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  &__image {
+    border-radius: 5px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      height: 188px;
+      width: 100%;
+    }
+
+    &:after {
+      border-bottom: 100px solid white;
+      border-radius: 0 0 200% 100%;
+      bottom: -6rem;
+      content: "";
+      display: block;
+      height: 20rem;
+      left: -50%;
+      position: absolute;
+      width: 200%;
+      z-index: 2;
+    }
+  }
+
+  &__content,
+  &__footer {
+    padding: 0 25px;
+  }
+
+  &__title {
+    color: var(--black-text);
+    font-size: 21px;
+    line-height: 28px;
+    margin: 1.5rem 0 .7rem 0;
+  }
+
+  &__intro {
+    color: var(--gray-text);
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0 0 2rem 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &__footer {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    hr {
+      border: none;
+      border-top: 2px solid var(--gray-border);
+      flex-basis: 100%;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__author {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 75%;
+    justify-content: space-around;
+
+    .author {
+      &__avatar {
+        flex-basis: 17%;
+        margin: 0;
+        overflow: hidden;
+
+        img {
+          border-radius: 50%;
+          height: 24px;
+          width: 24px;
+        }
+      }
+
+      &__name {
+        color: var(--gray-text);
+        font-size: 12px;
+        flex-basis: 83%;
+        opacity: .7;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  &__date {
+    color: var(--gray-text);
+    font-size: 12px;
+    flex-basis: 25%;
+    opacity: .7;
+    text-align: right;
+    text-transform: uppercase;
+  }
+}

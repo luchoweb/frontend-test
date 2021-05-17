@@ -1,0 +1,30 @@
+.share {
+  align-items: center;
+  color: var(--gray-600);
+  display: flex;
+  font-size: 12px;
+  line-height: 1rem;
+  text-transform: uppercase;
+
+  @media (max-width: 767px) {
+    margin-top: 1.5rem;
+  }
+
+  &__icons {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    margin: 0 0 0 1rem;
+    padding: 0;
+
+    .share-icon {
+      cursor: pointer;
+      font-size: 20px;
+      margin-right: 1rem;
+
+      &:hover {
+        opacity: .7;
+      }
+    }
+  }
+}

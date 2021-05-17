@@ -1,0 +1,49 @@
+.button {
+  appearance: none;
+  background-color: var(--gray-600);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 900;
+  padding: 16px 20px;
+  text-align: center;
+
+  &--icon {
+    position: relative;
+  }
+
+  &--primary {
+    background-color: var(--primary);
+
+    &:hover {
+      background-color: var(--primary-hover);
+    }
+  }
+
+  &--outline {
+    background-color: transparent;
+    border: 1px solid var(--gray-border-btn);
+    border-radius: 6px;
+    color: var(--primary);
+    transition: border .3s ease-in-out;
+
+    &:hover {
+      border: 1px solid var(--gray-600);
+    }
+  }
+
+  .icon {
+    font-size: 10px;
+    line-height: calc(10px * 2);
+
+    &--right {
+      float: right;
+    }
+
+    &--left {
+      float: left;
+    }
+  }
+}

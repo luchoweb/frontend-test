@@ -1,0 +1,92 @@
+:root {
+  // Primary Color
+  --primary: #335EEA;
+  --primary-hover: #577BEF;
+
+  // Black Colors
+  --black-text: #161C2D;
+  --black: #12263F;
+
+  // Gray Colors
+  --gray-700: #506690;
+  --gray-600: #869AB8;
+  --light-gray: #9FACC6;
+  --gray-text: #6B7C93;
+  --gray-bg-body: #F5F5F5;
+  --gray-border: #F3F7FB;
+  --gray-border-btn: #D9E2EF;
+
+  // Badge Colors
+  --green: #42BA96;
+  --yellow: #F2C94C;
+  --red: #DF4759;
+
+  // Stars Color (Favorite)
+  --star-gray: #B4C2D3;
+}
+
+::-webkit-input-placeholder {
+  font-weight: 900;
+  opacity: 1;
+}
+::-moz-placeholder {
+  font-weight: 900;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  font-weight: 900;
+  opacity: 1;
+}
+:-moz-placeholder {
+  font-weight: 900;
+  opacity: 1;
+}
+
+@import "./styles/includes/icons.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray-bg-body);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 900;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+figure {
+  line-height: 0;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+
+  @media (min-width: 991px){
+    width: 768px;
+  }
+
+  @media (min-width: 1080px){
+    width: 1040px;
+  }
+}
+
+.w-100 {
+  flex-basis: 100%;
+  width: 100%;
+}

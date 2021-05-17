@@ -1,0 +1,35 @@
+.input {
+  appearance: none;
+  border: 1px solid var(--gray-border-btn);
+  border-radius: 6px;
+  color: var(--gray-600);
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  transition: border .2s linear;
+
+  &:focus {
+    border: 1px solid var(--gray-600);
+    outline: none;
+  }
+
+  &::-webkit-input-placeholder {
+    color: var(--gray-600);
+  }
+
+  &:-moz-placeholder {
+    color: var(--gray-600);
+  }
+
+  &:-ms-input-placeholder {
+    color: var(--gray-600);
+  }
+
+  &__error {
+    color: darkred;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    margin: -.7rem 0 1rem .5rem;
+    text-align: left;
+  }
+}

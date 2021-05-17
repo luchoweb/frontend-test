@@ -1,0 +1,130 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "created_at": "2019-02-02 08:21:00",
+      "title": "Should I work remotely or will it put a strain on my long-term career?",
+      "intro": "As part of our ongoing effort to enhance the traveler journey, we’re proud to partner with Portland International Airport (PDX) on the launch of a pilot program designed to shorten rider wait times at pickup.",
+      "image": "post-image-1.png",
+      "image_caption": "This is a caption on this photo for reference",
+      "content": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque aperiam. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p>",
+      "price": 49,
+      "author": {
+        "name": "Alive Cooper",
+        "avatar": "avatar.png"
+      }
+    },
+    {
+      "id": 2,
+      "created_at": "2019-01-03 13:21:00",
+      "title": "Keeping the dream alive by traveling the world 2",
+      "intro": "As part of our ongoing effort to enhance the traveler journey, we’re proud to partner with Portland International Airport (PDX) on the launch of a pilot program designed to shorten rider wait times at pickup.",
+      "image": "post-image-2.png",
+      "image_caption": "This is a caption on this photo for reference",
+      "content": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p><p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p> ",
+      "price": 41,
+      "author": {
+        "name": "Alive Cooper",
+        "avatar": "avatar.png"
+      }
+    },
+    {
+      "id": 3,
+      "created_at": "2019-05-12 08:21:00",
+      "title": "Keeping the dream alive by traveling the world 2",
+      "intro": "As part of our ongoing effort to enhance the traveler journey, we’re proud to partner with Portland International Airport (PDX) on the launch of a pilot program designed to shorten rider wait times at pickup.",
+      "image": "post-image-3.png",
+      "image_caption": "This is a caption on this photo for reference",
+      "content": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.</p><p>Neque porro quisquam est, qui consectetur, tempora magnam aliquam quaerat voluptatem. Ut enim ad minima veniam,  nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p> ",
+      "price": 59,
+      "author": {
+        "name": "Alive Cooper",
+        "avatar": "avatar.png"
+      }
+    },
+    {
+      "id": 4,
+      "created_at": "2019-03-04 08:21:00",
+      "title": "Keeping the dream alive by traveling the world 4",
+      "intro": "As part of our ongoing effort to enhance the traveler journey, we’re proud to partner with Portland International Airport (PDX) on the launch of a pilot program designed to shorten rider wait times at pickup.",
+      "image": "post-image-1.png",
+      "image_caption": "This is a caption on this photo for reference",
+      "content": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.</p><p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, et dolore. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p> ",
+      "price": 49,
+      "author": {
+        "name": "Lucho Web",
+        "avatar": "avatar-lucho.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "created_at": "2019-11-07 13:21:00",
+      "title": "Keeping the dream alive by traveling the world 5",
+      "intro": "As part of our ongoing effort to enhance the traveler journey, we’re proud to partner with Portland International Airport (PDX) on the launch of a pilot program designed to shorten rider wait times at pickup.",
+      "image": "post-image-2.png",
+      "image_caption": "This is a caption on this photo for reference",
+      "content": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p><p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non et dolore magnam aliquam quaerat voluptatem. Quis autem e quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p> ",
+      "price": 41,
+      "author": {
+        "name": "Alive Cooper",
+        "avatar": "avatar.png"
+      }
+    },
+    {
+      "id": 6,
+      "created_at": "2019-10-08 08:21:00",
+      "title": "Keeping the dream alive by traveling the world 6",
+      "intro": "As part of our ongoing effort to enhance the traveler journey, we’re proud to partner with Portland International Airport (PDX) on the launch of a pilot program designed to shorten rider wait times at pickup.",
+      "image": "post-image-3.png",
+      "image_caption": "This is a caption on this photo for reference",
+      "content": "<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p><p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet magnam aliquam quaerat voluptatem. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p> ",
+      "price": 57,
+      "author": {
+        "name": "Alive Cooper",
+        "avatar": "avatar.png"
+      }
+    },
+    {
+      "id": 7,
+      "created_at": "2019-08-09 08:21:00",
+      "title": "Keeping the dream alive by traveling the world 7",
+      "intro": "As part of our ongoing effort to enhance the traveler journey, we’re proud to partner with Portland International Airport (PDX) on the launch of a pilot program designed to shorten rider wait times at pickup.",
+      "image": "post-image-1.png",
+      "image_caption": "This is a caption on this photo for reference",
+      "content": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis ete vitae dicta sunt explicabo.</p><p>Neque porro quisquam est, qui dolorem ipsum quia ut labore et dolore magnam aliquam quaerat voluptatem. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p> ",
+      "price": 77,
+      "author": {
+        "name": "Alive Cooper",
+        "avatar": "avatar.png"
+      }
+    },
+    {
+      "id": 8,
+      "created_at": "2019-09-11 13:21:00",
+      "title": "Keeping the dream alive by traveling the world 8",
+      "intro": "As part of our ongoing effort to enhance the traveler journey, we’re proud to partner with Portland International Airport (PDX) on the launch of a pilot program designed to shorten rider wait times at pickup.",
+      "image": "post-image-2.png",
+      "image_caption": "This is a caption on this photo for reference",
+      "content": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p><p>Neque porro quisquam est, adipisci velit, sed quia. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p> ",
+      "price": 45,
+      "author": {
+        "name": "Alive Cooper",
+        "avatar": "avatar.png"
+      }
+    },
+    {
+      "id": 9,
+      "created_at": "2019-06-14 08:21:00",
+      "title": "Keeping the dream alive by traveling the world 9",
+      "intro": "As part of our ongoing effort to enhance the traveler journey, we’re proud to partner with Portland International Airport (PDX) on the launch of a pilot program designed to shorten rider wait times at pickup.",
+      "image": "post-image-3.png",
+      "image_caption": "This is a caption on this photo for reference",
+      "content": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis sunt explicabo.</p><p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</p> ",
+      "price": 39,
+      "author": {
+        "name": "Alive Cooper",
+        "avatar": "avatar.png"
+      }
+    }
+  ]
+}

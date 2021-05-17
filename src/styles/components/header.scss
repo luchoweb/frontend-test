@@ -1,0 +1,33 @@
+.header {
+  background-color: white;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 9;
+
+  &__row {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+    @media (max-width: 640px) {
+      justify-content: space-between;
+    }
+  }
+
+  &__col {
+    &--logo {
+      align-self: flex-start;
+      flex-basis: 30%;
+    }
+
+    &--menu {
+      align-self: center;
+      flex-basis: 70%;
+    }
+
+    @media (max-width: 640px) {
+      flex-basis: auto;
+    }
+  }
+}
